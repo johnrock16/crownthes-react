@@ -1,0 +1,55 @@
+.grid-images-container{
+    display: grid;
+    grid-area: gimg;
+    background-color: #e77f1d;
+    flex:1;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.grid-image-container{
+    display: flex;
+    align-items: center;
+    // padding: 32px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    grid-area: "grid-img";
+    background-color: #ffffff;
+    flex: 1;
+}
+
+.grid-image{
+    width: 100%;
+    height: fit-content;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: transform .4s;
+    overflow: hidden;
+}
+
+.grid-button{
+    background-color: #ffffff;
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.dark{
+    background-color: #000000;
+    color: white;
+}
+
+.grid-images-horizontal-container{
+    display: grid;
+    grid-area: gimghor;
+    background-color: blue;
+}
+
+.grid-image-horizontal-container{
+    display: flex;
+    background-color: white;
+}
+
+.grid-image-horizontal{
+    width: 100%;
+}

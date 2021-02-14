@@ -1,0 +1,52 @@
+.slider-container{
+    display: flex;
+    flex: 1;
+}
+
+.slide-container{
+    display: flex;
+    width: 100%;
+}
+
+.slide-image{
+    display: flex;
+    
+}
+
+.previous-slide{
+    display: flex;
+    // position: absolute;
+    // background-image: url('https://images.pexels.com/photos/994517/pexels-photo-994517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20%;
+    height: 50%;
+    align-self: center;
+    z-index:1;
+}
+
+.current-slide{
+    display: flex;
+    // background-image: url('https://images.pexels.com/photos/5480739/pexels-photo-5480739.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 90%;
+    height: 70%;
+    align-self: center;
+    z-index:1;
+}
+
+.next-slide{
+    display: flex;
+    // position: absolute;
+    // background-image: url('https://images.pexels.com/photos/264726/pexels-photo-264726.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20%;
+    height: 50%;
+    align-self: center;
+    z-index:1;
+}
