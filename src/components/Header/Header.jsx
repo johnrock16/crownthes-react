@@ -1,4 +1,5 @@
 import React from 'react';
+import {CgCrown} from 'react-icons/cg';
 import './Header.scss';
 
 const Header=()=>{
@@ -6,7 +7,7 @@ const Header=()=>{
     return(
         <div className="header">
             <div className="header-title">
-                <h1 className="header-title-text">Crownthes</h1>
+                <h1 className="header-title-text"><CgCrown style={{fontSize:32}}/>Crownthes</h1>
             </div>
             <div className="header-tabs">
                 <h1 className="header-tabs-text">Hats</h1>

@@ -17,8 +17,10 @@
     .main-container{
         grid-template:
         "hd" 
-        "ct" 1fr
-        "gimg" 1fr 
+        "ct" 100vw 100vh
+        "clgrid"
+        "gimg" 
+        "gimghor"
         "ft"
         ;
     }

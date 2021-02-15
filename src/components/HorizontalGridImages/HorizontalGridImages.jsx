@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import SimpleButton from '../SimpleButton/SimpleButton';
 import HorizontalGridCard from './HorizontalGridCard';
 import './HorizontalGridImages.scss';
 
@@ -34,13 +35,10 @@ const HorizontalGridImages=({cards,initialCategory=''})=>{
                         <HorizontalGridCard title={title} text={text} price={price} imgsrc={imgsrc}/>
                     )))
                 }
+                <SimpleButton style={{left:0,zIndex:4, position:'absolute'}} onClick={()=>{onHandleChangeCategory(-1)}}> &#8249;</SimpleButton>
+                <SimpleButton style={{right:0,zIndex:4, position:'absolute'}} onClick={()=>{onHandleChangeCategory(+1)}}> &#8250;</SimpleButton>
             </div>
-            <div style={{display:'flex', backgroundColor:'black', color:'white', position:'absolute',left:0, zIndex:4}} onClick={(e)=>{
-                onHandleChangeCategory(-1);
-            }} className="post-button">Previous</div>
-            <div style={{display:'flex', backgroundColor:'black', color:'white', position:'absolute',right:0, zIndex:4}} onClick={(e)=>{
-                onHandleChangeCategory(+1);
-            }} className="post-button">Next</div>
+            
         </div>   
     )
 }

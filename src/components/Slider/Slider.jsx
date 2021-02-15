@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import SimpleButton from '../SimpleButton/SimpleButton';
 import './Slider.scss';
 
 const SLIDES=[
@@ -40,15 +41,12 @@ const Slider=()=>{
 
     return(
         <div className="slider-container">
-            <div style={{display:'flex', backgroundColor:'black', color:'white', position:'absolute',left:0,zIndex:2}} onClick={(e)=>{
-                onHandleChangeCurrentSlide(currentSlideIndex-1);
-            }} className="post-button">Previous</div>
             <div style={{backgroundImage:`url(${SLIDES[previousSlideIndex].imgsrc})`}} className="slide-container previous-slide"></div>
             <div style={{backgroundImage:`url(${SLIDES[currentSlideIndex].imgsrc})`}} className="slide-container current-slide"></div>
             <div style={{backgroundImage:`url(${SLIDES[nextSlideIndex].imgsrc})`}} className="slide-container next-slide"></div>
-            <div style={{display:'flex', backgroundColor:'black', color:'white', position:'absolute',right:0, zIndex:4}} onClick={(e)=>{
-                onHandleChangeCurrentSlide(currentSlideIndex+1);
-            }} className="post-button">Next</div>
+ 
+            <SimpleButton style={{left:0,zIndex:4 ,position:'absolute'}} onClick={()=>{onHandleChangeCurrentSlide(currentSlideIndex-1)}}> &#8249;</SimpleButton>
+            <SimpleButton style={{right:0,zIndex:4, position:'absolute'}} onClick={()=>{onHandleChangeCurrentSlide(currentSlideIndex+1);}}> &#8250;</SimpleButton>
         </div>
     );
 }
