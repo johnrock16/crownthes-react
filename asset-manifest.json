@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/crownthes-react/static/css/main.dc190d57.chunk.css",
+    "main.js": "/crownthes-react/static/js/main.1b4daeaa.chunk.js",
+    "main.js.map": "/crownthes-react/static/js/main.1b4daeaa.chunk.js.map",
+    "runtime-main.js": "/crownthes-react/static/js/runtime-main.33a3c1ad.js",
+    "runtime-main.js.map": "/crownthes-react/static/js/runtime-main.33a3c1ad.js.map",
+    "static/js/2.b30512cd.chunk.js": "/crownthes-react/static/js/2.b30512cd.chunk.js",
+    "static/js/2.b30512cd.chunk.js.map": "/crownthes-react/static/js/2.b30512cd.chunk.js.map",
+    "static/js/3.563a75b3.chunk.js": "/crownthes-react/static/js/3.563a75b3.chunk.js",
+    "static/js/3.563a75b3.chunk.js.map": "/crownthes-react/static/js/3.563a75b3.chunk.js.map",
+    "index.html": "/crownthes-react/index.html",
+    "static/css/main.dc190d57.chunk.css.map": "/crownthes-react/static/css/main.dc190d57.chunk.css.map",
+    "static/js/2.b30512cd.chunk.js.LICENSE.txt": "/crownthes-react/static/js/2.b30512cd.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.33a3c1ad.js",
+    "static/js/2.b30512cd.chunk.js",
+    "static/css/main.dc190d57.chunk.css",
+    "static/js/main.1b4daeaa.chunk.js"
+  ]
+}
